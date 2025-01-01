@@ -12,9 +12,12 @@ const UpdatePost=(props)=>{
     const{setpostData}=props
    const title=useRef(" ")
    const body=useRef(" ")
+
    const body1= useRef(" ")
    
 
+
+console.log("my name is leah")
     const updatePost = async () => {
         const objPost = {
             _id:props.post._id,
