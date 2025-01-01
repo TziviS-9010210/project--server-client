@@ -14,7 +14,8 @@ const UpdatePost=(props)=>{
    const body=useRef(" ")
 
    const body1= useRef(" ")
-   
+   console.log("edit not conflict")
+
 
 
 console.log("my name is leah")
