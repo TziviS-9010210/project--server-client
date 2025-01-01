@@ -18,6 +18,7 @@ const Posts = () => {
             if (res.status === 200) {
                 // console.log(res.data);
                 //res.data.sort((p)=>p._id)
+console.log("this is conflict")
 
                 setpostData(res.data)
             
